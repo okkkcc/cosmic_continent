@@ -1,0 +1,83 @@
+---- Minecraft Crash Report ----
+// I just don't know what went wrong :(
+
+Time: 2023-02-10 07:26:32
+Description: Exception in server tick loop
+
+java.lang.IllegalStateException: Failed to initialize server
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:626) ~[server-1.19.2-20220805.130853-srg.jar%23121!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23121!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Linux (amd64) version 5.15.0-60-generic
+	Java Version: 17.0.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 172204712 bytes (164 MiB) / 675282944 bytes (644 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i5-12500
+	Identifier: Intel64 Family 6 Model 151 Stepping 5
+	Microarchitecture: unknown
+	Frequency (GHz): 2.86
+	Number of physical packages: 4
+	Number of physical CPUs: 4
+	Number of logical CPUs: 4
+	Graphics card #0 name: SVGA II Adapter
+	Graphics card #0 vendor: VMware (0x15ad)
+	Graphics card #0 VRAM (MB): 128.00
+	Graphics card #0 deviceId: 0x0405
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): -0.00
+	Memory slot #0 type: DRAM
+	Virtual memory max (MB): 4009.49
+	Virtual memory used (MB): 4765.05
+	Swap memory total (MB): 2048.00
+	Swap memory used (MB): 935.50
+	JVM Flags: 2 total; -Xms512M -Xmx4G
+	Server Running: true
+	Data Packs: vanilla, file/bukkit (incompatible), mod:luckperms (incompatible), mod:roughlyenoughitems (incompatible), mod:cloth_config (incompatible), mod:forge, mod:architectury (incompatible), mod:ftblibrary (incompatible), mod:ftbranks (incompatible), mod:ftbessentials (incompatible), mod:citadel, mod:jei (incompatible)
+	World Generation: Experimental
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		server-1.19.2-20220805.130853-srg.jar             |Minecraft                     |minecraft                     |1.19.2              |DONE      |Manifest: NOSIGNATURE
+		LuckPerms-Forge-5.4.58.jar                        |LuckPerms                     |luckperms                     |5.4.58              |DONE      |Manifest: NOSIGNATURE
+		RoughlyEnoughItems-9.1.580.jar                    |Roughly Enough Items (REI)    |roughlyenoughitems            |9.1.580             |DONE      |Manifest: NOSIGNATURE
+		cloth-config-8.2.88-forge.jar                     |Cloth Config v8 API           |cloth_config                  |8.2.88              |DONE      |Manifest: NOSIGNATURE
+		forge-1.19.2-43.2.0-universal.jar                 |Forge                         |forge                         |43.2.0              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		architectury-6.4.62-forge.jar                     |Architectury                  |architectury                  |6.4.62              |DONE      |Manifest: NOSIGNATURE
+		ftb-library-forge-1902.3.11-build.166.jar         |FTB Library                   |ftblibrary                    |1902.3.11-build.166 |DONE      |Manifest: NOSIGNATURE
+		ftb-ranks-forge-1902.1.14-build.70.jar            |FTB Ranks                     |ftbranks                      |1902.1.14-build.70  |DONE      |Manifest: NOSIGNATURE
+		ftb-essentials-1902.1.10-build.47.jar             |FTB Essentials                |ftbessentials                 |1902.1.10-build.47  |DONE      |Manifest: NOSIGNATURE
+		citadel-2.1.1-1.19.jar                            |Citadel                       |citadel                       |2.1.1               |DONE      |Manifest: NOSIGNATURE
+		jei-1.19.2-forge-11.4.0.286.jar                   |Just Enough Items             |jei                           |11.4.0.286          |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: f6780e24-56a2-4903-a02b-d94b1d5f832d
+	FML: 43.2
+	Forge: net.minecraftforge:43.2.0

@@ -1,0 +1,28 @@
+{"sets": {"mtr_stations": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "Stations","markers": {}
+,"lines": {}
+,"layerprio": 0}
+,"mtr_station_areas": {"hide": true,"circles": {}
+,"areas": {}
+,"label": "Station Areas","markers": {}
+,"lines": {}
+,"layerprio": 0}
+,"mtr_depots": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "Depots","markers": {}
+,"lines": {}
+,"layerprio": 0}
+,"mtr_depot_areas": {"hide": true,"circles": {}
+,"areas": {}
+,"label": "Depot Areas","markers": {}
+,"lines": {}
+,"layerprio": 0}
+,"markers": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "Markers","markers": {"_spawn_DIM1": {"markup": false,"x": 0.00,"icon": "world","y": 123.00,"dim": "16x16","z": 0.00,"label": "Spawn"}
+}
+,"lines": {}
+,"layerprio": 0}
+}
+,"timestamp": 1694274450225}

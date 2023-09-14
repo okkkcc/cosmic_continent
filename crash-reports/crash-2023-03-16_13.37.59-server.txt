@@ -1,0 +1,87 @@
+---- Minecraft Crash Report ----
+// There are four lights!
+
+Time: 2023-03-16 13:37:59
+Description: Exception in server tick loop
+
+java.lang.IllegalStateException: Failed to initialize server
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:626) ~[server-1.19.2-20220805.130853-srg.jar%23129!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23129!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Linux (amd64) version 5.15.0-67-generic
+	Java Version: 17.0.6, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Private Build
+	Memory: 291578640 bytes (278 MiB) / 1181745152 bytes (1127 MiB) up to 2147483648 bytes (2048 MiB)
+	CPUs: 2
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz
+	Identifier: Intel64 Family 6 Model 63 Stepping 2
+	Microarchitecture: Haswell (Server)
+	Frequency (GHz): 2.50
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 2
+	Graphics card #0 name: GD 5446
+	Graphics card #0 vendor: Cirrus Logic (0x1013)
+	Graphics card #0 VRAM (MB): 32.00
+	Graphics card #0 deviceId: 0x00b8
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): -0.00
+	Memory slot #0 type: RAM
+	Virtual memory max (MB): 1961.98
+	Virtual memory used (MB): 2027.50
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 2 total; -Xms512M -Xmx2G
+	Server Running: true
+	Data Packs: vanilla, file/bukkit (incompatible), mod:luckperms (incompatible), mod:roughlyenoughitems (incompatible), mod:cloth_config (incompatible), mod:forge, mod:architectury (incompatible), mod:ftblibrary (incompatible), mod:ftbranks (incompatible), mod:ftbessentials (incompatible), mod:citadel, mod:jei (incompatible), mod:usefulrailroads, mod:uteamcore, mod:basicdiscordrichpresence, mod:xaerominimap
+	World Generation: Experimental
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		server-1.19.2-20220805.130853-srg.jar             |Minecraft                     |minecraft                     |1.19.2              |DONE      |Manifest: NOSIGNATURE
+		useful_railroads-1.19.2-1.5.1.47.jar              |Useful Railroads              |usefulrailroads               |1.5.1.47            |DONE      |Manifest: f4:a6:0b:ee:cb:8a:1a:ea:9f:9d:45:91:8f:8b:b3:ae:26:f3:bf:05:86:1d:90:9e:f6:32:2a:1a:ed:1d:ce:b0
+		u_team_core-1.19.2-4.4.3.236.jar                  |U Team Core                   |uteamcore                     |4.4.3.236           |DONE      |Manifest: f4:a6:0b:ee:cb:8a:1a:ea:9f:9d:45:91:8f:8b:b3:ae:26:f3:bf:05:86:1d:90:9e:f6:32:2a:1a:ed:1d:ce:b0
+		basic_discord_rich_presence-1.19.2-1.1.1.12.jar   |Basic Discord Rich Presence   |basicdiscordrichpresence      |1.1.1.12            |DONE      |Manifest: f4:a6:0b:ee:cb:8a:1a:ea:9f:9d:45:91:8f:8b:b3:ae:26:f3:bf:05:86:1d:90:9e:f6:32:2a:1a:ed:1d:ce:b0
+		architectury-6.4.62-forge.jar                     |Architectury                  |architectury                  |6.4.62              |DONE      |Manifest: NOSIGNATURE
+		ftb-library-forge-1902.3.11-build.166.jar         |FTB Library                   |ftblibrary                    |1902.3.11-build.166 |DONE      |Manifest: NOSIGNATURE
+		ftb-ranks-forge-1902.1.14-build.70.jar            |FTB Ranks                     |ftbranks                      |1902.1.14-build.70  |DONE      |Manifest: NOSIGNATURE
+		ftb-essentials-1902.1.10-build.47.jar             |FTB Essentials                |ftbessentials                 |1902.1.10-build.47  |DONE      |Manifest: NOSIGNATURE
+		jei-1.19.2-forge-11.4.0.286.jar                   |Just Enough Items             |jei                           |11.4.0.286          |DONE      |Manifest: NOSIGNATURE
+		LuckPerms-Forge-5.4.58.jar                        |LuckPerms                     |luckperms                     |5.4.58              |DONE      |Manifest: NOSIGNATURE
+		RoughlyEnoughItems-9.1.580.jar                    |Roughly Enough Items (REI)    |roughlyenoughitems            |9.1.580             |DONE      |Manifest: NOSIGNATURE
+		cloth-config-8.2.88-forge.jar                     |Cloth Config v8 API           |cloth_config                  |8.2.88              |DONE      |Manifest: NOSIGNATURE
+		forge-1.19.2-43.2.0-universal.jar                 |Forge                         |forge                         |43.2.0              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		Xaeros_Minimap_23.1.0_Forge_1.19.1.jar            |Xaero's Minimap               |xaerominimap                  |23.1.0              |DONE      |Manifest: NOSIGNATURE
+		citadel-2.1.1-1.19.jar                            |Citadel                       |citadel                       |2.1.1               |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 43d585ce-72e0-4b0b-8d3b-813895503832
+	FML: 43.2
+	Forge: net.minecraftforge:43.2.0
