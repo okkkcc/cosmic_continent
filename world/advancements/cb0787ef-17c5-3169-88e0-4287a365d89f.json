@@ -1,0 +1,153 @@
+{
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2023-03-03 06:15:49 +0000"
+    },
+    "done": true
+  },
+  "usefulrailroads:recipes/intersection_rail": {
+    "criteria": {
+      "has_minecart": "2023-03-03 06:15:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-03-03 06:06:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-03-03 06:06:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-03-03 06:06:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2023-03-03 06:15:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_sword": "2023-03-03 06:12:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-03-03 06:06:54 +0000"
+    },
+    "done": true
+  },
+  "usefulrailroads:recipes/buffer_stop": {
+    "criteria": {
+      "has_minecart": "2023-03-03 06:15:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-03-03 06:06:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-03-03 06:06:54 +0000"
+    },
+    "done": true
+  },
+  "usefulrailroads:recipes/highspeed_rail": {
+    "criteria": {
+      "has_minecart": "2023-03-03 06:15:49 +0000"
+    },
+    "done": true
+  },
+  "usefulrailroads:recipes/single_track_builder": {
+    "criteria": {
+      "has_rail": "2023-03-03 06:16:51 +0000"
+    },
+    "done": true
+  },
+  "usefulrailroads:recipes/double_track_builder": {
+    "criteria": {
+      "has_rail": "2023-03-03 06:16:51 +0000"
+    },
+    "done": true
+  },
+  "usefulrailroads:recipes/direction_rail": {
+    "criteria": {
+      "has_minecart": "2023-03-03 06:15:49 +0000"
+    },
+    "done": true
+  },
+  "usefulrailroads:recipes/clamp_rail": {
+    "criteria": {
+      "has_minecart": "2023-03-03 06:15:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2023-03-03 06:15:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2023-03-03 06:15:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-03-03 06:06:54 +0000"
+    },
+    "done": true
+  },
+  "usefulrailroads:recipes/teleport_rail": {
+    "criteria": {
+      "has_minecart": "2023-03-03 06:15:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-03-03 06:06:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_sword": "2023-03-03 06:12:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_pine_taiga": "2023-03-03 06:06:24 +0000",
+      "minecraft:taiga": "2023-03-03 06:03:13 +0000",
+      "minecraft:river": "2023-03-03 06:04:54 +0000",
+      "minecraft:forest": "2023-03-03 06:05:18 +0000",
+      "minecraft:lush_caves": "2023-03-03 06:06:55 +0000",
+      "minecraft:meadow": "2023-03-03 06:06:05 +0000",
+      "minecraft:plains": "2023-03-03 06:05:44 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2023-03-03 06:15:49 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

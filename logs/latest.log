@@ -1,0 +1,31 @@
+[10Sep2023 00:01:52.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set own game mode to Spectator Mode]
+[10Sep2023 00:02:02.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Set own game mode to Spectator Mode]
+[10Sep2023 00:03:14.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the weather to clear]
+[10Sep2023 00:03:20.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Set the time to 1000]
+[10Sep2023 00:06:06.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Set own game mode to Creative Mode]
+[10Sep2023 00:08:54.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set own game mode to Creative Mode]
+[10Sep2023 00:12:05.727] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Disconnected
+[10Sep2023 00:12:05.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
+[10Sep2023 00:12:24.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the weather to clear]
+[10Sep2023 00:12:27.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the time to 1000]
+[10Sep2023 00:53:47.721] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: admin lost connection: Disconnected
+[10Sep2023 00:53:47.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: admin left the game
+[10Sep2023 01:10:00.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[10Sep2023 01:10:00.131] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.AbstractConnector/]: Stopped ServerConnector@117b24e5{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+[10Sep2023 01:10:00.133] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.handler.ContextHandler/]: Stopped m.l.o.e.j.s.ServletContextHandler@2ca06a0{/,union:/root/instances/02-mc-forge-1.19.2/mods/MTR-forge-1.19.2-3.1.0.jar%23130!/assets/mtr/website,STOPPED}
+[10Sep2023 01:10:00.151] [Server thread/INFO] [Dynmap/]: [Dynmap] Unloaded 11 components.
+[10Sep2023 01:10:00.151] [Server thread/INFO] [Dynmap/]: [Dynmap] Stopping map renderer...
+[10Sep2023 01:10:01.152] [Server thread/INFO] [Dynmap/]: [Dynmap] Disabled
+[10Sep2023 01:10:01.152] [Server thread/INFO] [luckperms/]: Starting shutdown process...
+[10Sep2023 01:10:01.154] [Server thread/INFO] [luckperms/]: Closing storage...
+[10Sep2023 01:10:01.188] [Server thread/INFO] [luckperms/]: Goodbye!
+[10Sep2023 01:10:01.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[10Sep2023 01:10:01.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[10Sep2023 01:10:01.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[10Sep2023 01:10:03.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10Sep2023 01:10:03.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[10Sep2023 01:10:03.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[10Sep2023 01:10:03.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10Sep2023 01:10:03.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10Sep2023 01:10:03.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10Sep2023 01:10:03.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
