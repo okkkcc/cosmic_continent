@@ -5,8 +5,8 @@
 '10_0_0_104':
 - admin
 '10_0_0_1':
-- admin
 - eho
+- admin
 - luoyunsheng
 - lumos
 - das
