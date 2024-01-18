@@ -1,37 +1,193 @@
-[18Jan2024 00:01:34.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Teleported das to admin]
-[18Jan2024 00:08:38.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Successfully filled 1775 blocks]
-[18Jan2024 00:09:13.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the time to 1000]
-[18Jan2024 00:12:23.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Successfully filled 1080 blocks]
-[18Jan2024 00:12:58.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Successfully filled 1079 blocks]
-[18Jan2024 00:18:07.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the time to 1000]
-[18Jan2024 00:27:13.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the time to 1000]
-[18Jan2024 00:30:57.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Teleported admin to das]
-[18Jan2024 00:30:57.746] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: admin moved too quickly! 335.72982539918553,-28.62018523545713,-62.24197582187057
-[18Jan2024 00:36:21.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the time to 1000]
-[18Jan2024 00:46:05.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the time to 1000]
-[18Jan2024 00:59:09.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the time to 1000]
-[18Jan2024 01:07:09.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the time to 13000]
-[18Jan2024 01:09:07.613] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: admin lost connection: Disconnected
-[18Jan2024 01:09:07.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: admin left the game
-[18Jan2024 01:09:44.965] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: das lost connection: Disconnected
-[18Jan2024 01:09:44.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: das left the game
-[18Jan2024 01:10:00.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[18Jan2024 01:10:00.411] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.AbstractConnector/]: Stopped ServerConnector@1d1c4e4a{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
-[18Jan2024 01:10:00.413] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.handler.ContextHandler/]: Stopped m.l.o.e.j.s.ServletContextHandler@33a5f7fb{/,union:/root/instances/02-mc-forge-1.19.2/mods/MTR-forge-1.19.2-3.1.0.jar%23130!/assets/mtr/website,STOPPED}
-[18Jan2024 01:10:00.424] [Server thread/INFO] [Dynmap/]: [Dynmap] Unloaded 11 components.
-[18Jan2024 01:10:00.424] [Server thread/INFO] [Dynmap/]: [Dynmap] Stopping map renderer...
-[18Jan2024 01:10:01.426] [Server thread/INFO] [Dynmap/]: [Dynmap] Saved 12 pending tile renders in world 'world'
-[18Jan2024 01:10:01.438] [Server thread/INFO] [Dynmap/]: [Dynmap] Disabled
-[18Jan2024 01:10:01.438] [Server thread/INFO] [luckperms/]: Starting shutdown process...
-[18Jan2024 01:10:01.444] [Server thread/INFO] [luckperms/]: Closing storage...
-[18Jan2024 01:10:01.472] [Server thread/INFO] [luckperms/]: Goodbye!
-[18Jan2024 01:10:01.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[18Jan2024 01:10:01.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[18Jan2024 01:10:01.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[18Jan2024 01:10:04.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18Jan2024 01:10:04.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[18Jan2024 01:10:04.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[18Jan2024 01:10:04.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18Jan2024 01:10:04.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18Jan2024 01:10:04.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18Jan2024 01:10:04.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19Jan2024 00:00:21.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Teleported admin to luoyunsheng]
+[19Jan2024 00:00:40.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Teleported das to luoyunsheng]
+[19Jan2024 00:01:08.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Teleported das to 169.500000, 161.500000, -322.500000]
+[19Jan2024 00:01:36.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Teleported admin to 184.500000, 135.500000, 165.500000]
+[19Jan2024 00:01:36.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: admin moved too quickly! 1042.2428105740987,66.86015786929546,1436.421004524919
+[19Jan2024 00:02:58.752] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luoyunsheng lost connection: Disconnected
+[19Jan2024 00:02:58.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luoyunsheng left the game
+[19Jan2024 00:03:29.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Teleported admin to das]
+[19Jan2024 00:03:39.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the weather to clear]
+[19Jan2024 00:05:15.448] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [G] (creators)
+[19Jan2024 00:05:15.448] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > create
+[19Jan2024 00:07:40.308] [Server thread/WARN] [luckperms/]: An exception was thrown by me.lucko.luckperms.forge.context.ForgePlayerCalculator whilst estimating potential contexts
+java.lang.NoClassDefFoundError: net/minecraft/core/registries/Registries
+	at me.lucko.luckperms.forge.context.ForgePlayerCalculator.estimatePotentialContexts(ForgePlayerCalculator.java:105) ~[?:?]
+	at me.lucko.luckperms.common.context.manager.ContextManager.getPotentialContexts(ContextManager.java:182) ~[?:?]
+	at me.lucko.luckperms.common.command.tabcomplete.TabCompletions.lambda$new$5(TabCompletions.java:99) ~[?:?]
+	at me.lucko.luckperms.common.command.tabcomplete.TabCompleter.getCompletions(TabCompleter.java:94) ~[?:?]
+	at me.lucko.luckperms.common.command.tabcomplete.TabCompleter.complete(TabCompleter.java:85) ~[?:?]
+	at me.lucko.luckperms.common.commands.generic.parent.ParentSet.tabComplete(ParentSet.java:103) ~[?:?]
+	at me.lucko.luckperms.common.command.abstraction.GenericParentCommand.lambda$tabComplete$6(GenericParentCommand.java:106) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at me.lucko.luckperms.common.command.abstraction.GenericParentCommand.lambda$tabComplete$7(GenericParentCommand.java:106) ~[?:?]
+	at me.lucko.luckperms.common.command.tabcomplete.TabCompleter.getCompletions(TabCompleter.java:94) ~[?:?]
+	at me.lucko.luckperms.common.command.tabcomplete.TabCompleter.complete(TabCompleter.java:85) ~[?:?]
+	at me.lucko.luckperms.common.command.abstraction.GenericParentCommand.tabComplete(GenericParentCommand.java:109) ~[?:?]
+	at me.lucko.luckperms.common.command.abstraction.ParentCommand.lambda$tabComplete$7(ParentCommand.java:133) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at me.lucko.luckperms.common.command.abstraction.ParentCommand.lambda$tabComplete$8(ParentCommand.java:133) ~[?:?]
+	at me.lucko.luckperms.common.command.tabcomplete.TabCompleter.getCompletions(TabCompleter.java:94) ~[?:?]
+	at me.lucko.luckperms.common.command.tabcomplete.TabCompleter.complete(TabCompleter.java:85) ~[?:?]
+	at me.lucko.luckperms.common.command.abstraction.ParentCommand.tabComplete(ParentCommand.java:136) ~[?:?]
+	at me.lucko.luckperms.common.command.CommandManager.lambda$tabCompleteCommand$10(CommandManager.java:296) ~[?:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at me.lucko.luckperms.common.command.CommandManager.lambda$tabCompleteCommand$11(CommandManager.java:296) ~[?:?]
+	at me.lucko.luckperms.common.command.tabcomplete.TabCompleter.getCompletions(TabCompleter.java:94) ~[?:?]
+	at me.lucko.luckperms.common.command.tabcomplete.TabCompleter.complete(TabCompleter.java:85) ~[?:?]
+	at me.lucko.luckperms.common.command.CommandManager.tabCompleteCommand(CommandManager.java:299) ~[?:?]
+	at me.lucko.luckperms.common.command.BrigadierCommandExecutor.getSuggestions(BrigadierCommandExecutor.java:104) ~[?:?]
+	at com.mojang.brigadier.tree.ArgumentCommandNode.listSuggestions(ArgumentCommandNode.java:71) ~[brigadier-1.0.18.jar%2374!/:?]
+	at com.mojang.brigadier.CommandDispatcher.getCompletionSuggestions(CommandDispatcher.java:598) ~[brigadier-1.0.18.jar%2374!/:?]
+	at com.mojang.brigadier.CommandDispatcher.getCompletionSuggestions(CommandDispatcher.java:580) ~[brigadier-1.0.18.jar%2374!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7741_(ServerGamePacketListenerImpl.java:516) ~[server-1.19.2-20220805.130853-srg.jar%23137!/:?]
+	at net.minecraft.network.protocol.game.ServerboundCommandSuggestionPacket.m_5797_(ServerboundCommandSuggestionPacket.java:29) ~[server-1.19.2-20220805.130853-srg.jar%23137!/:?]
+	at net.minecraft.network.protocol.game.ServerboundCommandSuggestionPacket.m_5797_(ServerboundCommandSuggestionPacket.java:7) ~[server-1.19.2-20220805.130853-srg.jar%23137!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22) ~[server-1.19.2-20220805.130853-srg.jar%23137!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23137!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23137!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23137!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763) ~[server-1.19.2-20220805.130853-srg.jar%23137!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23137!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23137!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746) ~[server-1.19.2-20220805.130853-srg.jar%23137!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23137!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23137!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:726) ~[server-1.19.2-20220805.130853-srg.jar%23137!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23137!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23137!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.core.registries.Registries
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:445) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:592) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 45 more
+[19Jan2024 00:07:40.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Successfully filled 492 blocks]
+[19Jan2024 00:07:41.608] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (das)
+[19Jan2024 00:07:41.608] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > parent set creators
+[19Jan2024 00:08:08.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Successfully filled 492 blocks]
+[19Jan2024 00:08:51.120] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [G] (creators)
+[19Jan2024 00:08:51.120] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission set command.weather true
+[19Jan2024 00:08:58.929] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [G] (creators)
+[19Jan2024 00:08:58.929] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission set command.time true
+[19Jan2024 00:09:09.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Set the weather to clear]
+[19Jan2024 00:09:43.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Set the time to 1000]
+[19Jan2024 00:09:59.601] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [G] (creators)
+[19Jan2024 00:09:59.603] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission set command.fill true
+[19Jan2024 00:10:06.183] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [G] (creators)
+[19Jan2024 00:10:06.184] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission set command.tp true
+[19Jan2024 00:10:14.610] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [G] (creators)
+[19Jan2024 00:10:14.611] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission set command. true
+[19Jan2024 00:10:21.677] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [G] (creators)
+[19Jan2024 00:10:21.678] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission set command. false
+[19Jan2024 00:10:29.137] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [G] (creators)
+[19Jan2024 00:10:29.139] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission set command.clone false
+[19Jan2024 00:10:30.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Successfully filled 409 blocks]
+[19Jan2024 00:11:09.993] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [G] (creators)
+[19Jan2024 00:11:09.993] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset command.
+[19Jan2024 00:11:15.976] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [G] (creators)
+[19Jan2024 00:11:15.977] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission set command.clone true
+[19Jan2024 00:11:50.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Successfully filled 409 blocks]
+[19Jan2024 00:12:12.770] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [G] (creators)
+[19Jan2024 00:12:12.770] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission set command.give true
+[19Jan2024 00:12:21.445] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [G] (creators)
+[19Jan2024 00:12:21.445] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission set forge.use_entity_selectors true
+[19Jan2024 00:13:23.263] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (das)
+[19Jan2024 00:13:23.263] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset command.fill
+[19Jan2024 00:13:30.271] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (das)
+[19Jan2024 00:13:30.271] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset command.gamemode
+[19Jan2024 00:13:32.738] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (das)
+[19Jan2024 00:13:32.739] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset command.give
+[19Jan2024 00:13:35.606] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (das)
+[19Jan2024 00:13:35.606] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset command.tp
+[19Jan2024 00:13:37.979] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (das)
+[19Jan2024 00:13:37.980] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset forge.use_entity_selectors
+[19Jan2024 00:14:03.232] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [G] (creators)
+[19Jan2024 00:14:03.233] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission set command.gamemode true
+[19Jan2024 00:14:13.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Teleported das to das]
+[19Jan2024 00:16:10.206] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (eho)
+[19Jan2024 00:16:10.206] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset command.*
+[19Jan2024 00:16:14.058] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (eho)
+[19Jan2024 00:16:14.060] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset command.time
+[19Jan2024 00:16:16.607] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (eho)
+[19Jan2024 00:16:16.607] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset forge.use_entity_selectors
+[19Jan2024 00:16:40.030] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (luoyunsheng)
+[19Jan2024 00:16:40.030] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset command.fill
+[19Jan2024 00:16:44.818] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (luoyunsheng)
+[19Jan2024 00:16:44.819] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset command.time
+[19Jan2024 00:16:47.258] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (luoyunsheng)
+[19Jan2024 00:16:47.259] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset command.tp
+[19Jan2024 00:16:49.821] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (luoyunsheng)
+[19Jan2024 00:16:49.822] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset command.tpa
+[19Jan2024 00:16:53.798] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (luoyunsheng)
+[19Jan2024 00:16:53.799] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset forge.use_entity_selectors
+[19Jan2024 00:18:23.517] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (lumos)
+[19Jan2024 00:18:23.518] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset command.fill
+[19Jan2024 00:18:27.801] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (lumos)
+[19Jan2024 00:18:27.801] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset command.tp
+[19Jan2024 00:19:01.863] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (x1aomo)
+[19Jan2024 00:19:01.864] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset command.tp
+[19Jan2024 00:19:15.875] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (x1aomo)
+[19Jan2024 00:19:15.875] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset forge.use_entity_selectors
+[19Jan2024 00:19:56.958] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (eho)
+[19Jan2024 00:19:56.958] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > parent set creators
+[19Jan2024 00:20:20.489] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (luoyunsheng)
+[19Jan2024 00:20:20.491] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > parent set creators
+[19Jan2024 00:20:30.583] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (mori)
+[19Jan2024 00:20:30.584] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > parent set creators
+[19Jan2024 00:20:42.055] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (lumos)
+[19Jan2024 00:20:42.056] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > parent set creators
+[19Jan2024 00:21:42.184] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [G] (root)
+[19Jan2024 00:21:42.184] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > create
+[19Jan2024 00:22:06.169] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [G] (root)
+[19Jan2024 00:22:06.170] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission set command.* true
+[19Jan2024 00:22:15.403] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [G] (root)
+[19Jan2024 00:22:15.404] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission set forge.* true
+[19Jan2024 00:22:23.230] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [G] (root)
+[19Jan2024 00:22:23.231] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission set luckperms.* true
+[19Jan2024 00:22:38.504] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (admin)
+[19Jan2024 00:22:38.504] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > parent set root
+[19Jan2024 00:22:50.754] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (admin)
+[19Jan2024 00:22:50.754] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset command.*
+[19Jan2024 00:22:53.572] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (admin)
+[19Jan2024 00:22:53.572] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset luckperms.*
+[19Jan2024 00:22:56.327] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (admin)
+[19Jan2024 00:22:56.328] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset lukperms.*
+[19Jan2024 00:22:58.893] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (admin)
+[19Jan2024 00:22:58.893] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset command./*
+[19Jan2024 00:23:01.301] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (admin)
+[19Jan2024 00:23:01.302] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission unset forge.use_entity_selectors
+[19Jan2024 00:23:16.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Teleported admin to das]
+[19Jan2024 00:23:20.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the time to 1000]
+[19Jan2024 00:23:22.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the weather to clear]
+[19Jan2024 00:25:08.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Teleported admin to das]
+[19Jan2024 00:27:47.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Successfully filled 493 blocks]
+[19Jan2024 00:29:22.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the weather to clear]
+[19Jan2024 00:39:08.944] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: admin lost connection: Disconnected
+[19Jan2024 00:39:08.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: admin left the game
+[19Jan2024 00:44:15.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Successfully filled 716 blocks]
+[19Jan2024 00:49:23.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Successfully filled 263 blocks]
+[19Jan2024 00:58:19.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Successfully filled 531 blocks]
+[19Jan2024 00:59:31.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Successfully filled 238 blocks]
+[19Jan2024 01:01:37.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Successfully filled 296 blocks]
+[19Jan2024 01:02:40.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [das: Successfully filled 580 blocks]
+[19Jan2024 01:04:37.148] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: das lost connection: Disconnected
+[19Jan2024 01:04:37.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: das left the game
+[19Jan2024 01:10:00.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[19Jan2024 01:10:00.093] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.AbstractConnector/]: Stopped ServerConnector@5c879da7{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+[19Jan2024 01:10:00.094] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.handler.ContextHandler/]: Stopped m.l.o.e.j.s.ServletContextHandler@2b7e1da7{/,union:/root/instances/02-mc-forge-1.19.2/mods/MTR-forge-1.19.2-3.1.0.jar%23130!/assets/mtr/website,STOPPED}
+[19Jan2024 01:10:00.113] [Server thread/INFO] [Dynmap/]: [Dynmap] Unloaded 11 components.
+[19Jan2024 01:10:00.114] [Server thread/INFO] [Dynmap/]: [Dynmap] Stopping map renderer...
+[19Jan2024 01:10:01.115] [Server thread/INFO] [Dynmap/]: [Dynmap] Disabled
+[19Jan2024 01:10:01.115] [Server thread/INFO] [luckperms/]: Starting shutdown process...
+[19Jan2024 01:10:01.122] [Server thread/INFO] [luckperms/]: Closing storage...
+[19Jan2024 01:10:01.150] [Server thread/INFO] [luckperms/]: Goodbye!
+[19Jan2024 01:10:01.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[19Jan2024 01:10:01.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[19Jan2024 01:10:01.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[19Jan2024 01:10:03.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19Jan2024 01:10:04.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19Jan2024 01:10:04.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19Jan2024 01:10:04.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19Jan2024 01:10:04.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19Jan2024 01:10:04.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19Jan2024 01:10:04.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -149,6 +149,12 @@
     },
     "done": true
   },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2024-01-18 23:16:55 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2023-03-27 01:07:51 +0800"
@@ -428,6 +434,12 @@
   "minecraft:recipes/decorations/magenta_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2023-04-14 01:26:09 +0800"
+    },
+    "done": true
+  },
+  "simpleplanes:recipes/plane": {
+    "criteria": {
+      "in_fire": "2024-01-18 23:16:37 +0800"
     },
     "done": true
   },
@@ -1334,6 +1346,7 @@
       "minecraft:forest": "2023-02-22 22:43:47 +0800",
       "minecraft:jungle": "2023-05-12 18:27:04 +0800",
       "minecraft:ocean": "2023-05-22 20:30:37 +0800",
+      "minecraft:old_growth_spruce_taiga": "2024-01-18 23:58:31 +0800",
       "minecraft:flower_forest": "2023-05-12 18:32:28 +0800",
       "minecraft:frozen_peaks": "2023-05-09 23:41:30 +0800",
       "minecraft:old_growth_birch_forest": "2023-05-12 21:10:47 +0800",
