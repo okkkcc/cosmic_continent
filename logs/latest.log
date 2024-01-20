@@ -1,14 +1,21 @@
-[20Jan2024 01:12:53.793] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.2.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[20Jan2024 01:12:53.796] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.9 by Private Build; OS Linux arch amd64 version 5.15.0-91-generic
-[20Jan2024 01:12:54.200] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/root/instances/02-mc-forge-1.19.2/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[20Jan2024 01:12:54.557] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /root/instances/02-mc-forge-1.19.2/libraries/net/minecraftforge/fmlcore/1.19.2-43.2.0/fmlcore-1.19.2-43.2.0.jar is missing mods.toml file
-[20Jan2024 01:12:54.558] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /root/instances/02-mc-forge-1.19.2/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.2.0/javafmllanguage-1.19.2-43.2.0.jar is missing mods.toml file
-[20Jan2024 01:12:54.559] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /root/instances/02-mc-forge-1.19.2/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.2.0/lowcodelanguage-1.19.2-43.2.0.jar is missing mods.toml file
-[20Jan2024 01:12:54.560] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /root/instances/02-mc-forge-1.19.2/libraries/net/minecraftforge/mclanguage/1.19.2-43.2.0/mclanguage-1.19.2-43.2.0.jar is missing mods.toml file
-[20Jan2024 01:12:54.718] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[20Jan2024 01:12:56.585] [main/ERROR] [mixin/]: Mixin config rei.mixins.json does not specify "minVersion" property
-[20Jan2024 01:12:56.595] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[20Jan2024 01:12:56.611] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[20Jan2024 01:12:56.807] [main/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
-[20Jan2024 01:13:01.448] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[20Jan2024 01:13:01.945] [main/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
+[21Jan2024 01:10:00.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[21Jan2024 01:10:00.652] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.AbstractConnector/]: Stopped ServerConnector@4417c74e{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+[21Jan2024 01:10:00.653] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.handler.ContextHandler/]: Stopped m.l.o.e.j.s.ServletContextHandler@92f49da{/,union:/root/instances/02-mc-forge-1.19.2/mods/MTR-forge-1.19.2-3.1.0.jar%23132!/assets/mtr/website,STOPPED}
+[21Jan2024 01:10:00.676] [Server thread/INFO] [Dynmap/]: [Dynmap] Unloaded 11 components.
+[21Jan2024 01:10:00.676] [Server thread/INFO] [Dynmap/]: [Dynmap] Stopping map renderer...
+[21Jan2024 01:10:01.680] [Server thread/INFO] [Dynmap/]: [Dynmap] Disabled
+[21Jan2024 01:10:01.680] [Server thread/INFO] [luckperms/]: Starting shutdown process...
+[21Jan2024 01:10:01.686] [Server thread/INFO] [luckperms/]: Closing storage...
+[21Jan2024 01:10:01.729] [Server thread/INFO] [luckperms/]: Goodbye!
+[21Jan2024 01:10:01.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21Jan2024 01:10:01.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21Jan2024 01:10:01.747] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: das lost connection: Server closed
+[21Jan2024 01:10:01.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: das left the game
+[21Jan2024 01:10:01.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21Jan2024 01:10:04.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21Jan2024 01:10:04.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21Jan2024 01:10:04.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21Jan2024 01:10:04.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21Jan2024 01:10:04.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21Jan2024 01:10:04.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21Jan2024 01:10:04.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
