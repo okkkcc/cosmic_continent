@@ -194,7 +194,9 @@ var DynmapTileLayer = L.TileLayer.extend({
 		if (!url) {
 			this._cachedTileUrls[tileName] = url = this.options.dynmap.getTileUrl(tileName);
 		}
-
+		if (typeof timestamp === 'undefined') {
+		   timestamp = this.options.dynmap.inittime
+		}
 		if(typeof timestamp !== 'undefined') {
 			url += (url.indexOf('?') === -1 ? '?timestamp=' + timestamp : '&timestamp=' + timestamp);
 		}
@@ -216,10 +218,8 @@ var DynmapTileLayer = L.TileLayer.extend({
 		if (!next) {
 			return;
 		}
-		this._loadingTiles.push(next);
 
-		// Tile CDN
-		// next.src = "https://mcmap.okkk.cc/"+next.url;
+		this._loadingTiles.push(next);
 		next.src = next.url;
 	},
 
